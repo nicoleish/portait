@@ -1,0 +1,29 @@
+#container {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.dog-head {
+  z-index: 150;
+  -webkit-animation: head-move 1s ease-in-out infinite;
+}
+
+div.dog-body {
+  height: 400px;
+  width: 400px;
+  margin-top: -175px;
+  margin-left: -25px;
+  background-image: url('dog1-body.png');
+  background-repeat: no-repeat;
+}
+
+
+
+/*ANIMATIONS
+---------------------------------------------------------*/
+
+@-webkit-keyframes head-move {
+  50% { 
+    -webkit-transform: rotate(-1.5deg); 
+  }
+}

@@ -1,0 +1,29 @@
+body {
+	background-color: #d37cab ; 
+	color: white;
+	font-family: Raleway;
+}
+
+#button2 {
+	padding: 4vh; 
+	background-color: #c5e1a4; 
+	border-radius: 25px;
+}
+
+#button2:focus {
+	background-color: #c0a4e1;
+}
+
+p {
+	text-align: left;
+}
+
+#button1 {
+	padding: 4vh; 
+	background-color: #79c0f7; 
+	border-radius: 25px;
+}
+
+#button1:focus {
+	background-color: #c0f779;
+}

@@ -145,12 +145,10 @@ div p {
 */
 
 div img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+	padding: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
 }
 
 

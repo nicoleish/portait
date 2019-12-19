@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>
-    Location - New Jersey
+    Mini Game
   </title>
 
   <meta charset="utf-8">
@@ -12,19 +12,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" defer></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" type="text/css" href="animate.css">
   <link href="https://fonts.googleapis.com/css?family=Lato|Solway&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
- 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
   <script src="javaboi.js" defer></script>
 
 </head>
 
-<body>
-  <!-- NAV BAR -->
+<body onload="startGame()">
+
+<!-- NAV BAR -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <!-- <img src="nickey-cakes.gif" width="300px" length="300px" class="img-fluid mb-4" alt="" data-wow-delay="0.3s" class="navbar-brand mx-5 animated fadeInUp" href="index.html">
  -->
@@ -56,7 +56,7 @@
           <a class="nav-link" href="contact.html">Contact</a> 
         </li>
       </ul>
-    </div>
+    </div>s
   </nav>
 
 <!-- end of nav -->
@@ -65,15 +65,47 @@
  <br>
  <br>
 
-<center><h1> New Jersey - COMING SOON!</h1>
+<!-- main! -->
+ <br> 
+ <br> 
+ <br>
+ <br> <br> 
+ <br> 
+ <br>
+ <br> <br> 
+ <br> 
+ <br>
+ <br> <br> 
+ <br> 
+ <br>
+ <br> <br> 
+ <br> 
+ <br>
+ <br> <br> 
+ <br> 
+ <br>
+ <br>
+  <center>
+<div class="control">
+  <button class="w3-button w3-border w3-hover-blue-grey w3-indigo" onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button><br><br>
 
-<p id="demo" class="countdown"></p>
+  <button class="w3-button w3-border w3-hover-indigo w3-blue-grey" onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
 
+  <button class="w3-button w3-border w3-hover-indigo w3-blue-grey" onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button><br><br>
+
+  <button class="w3-button w3-border w3-hover-blue-grey w3-indigo" onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+</div>
+
+<p>get the cupcake as far as you can!!!</p>
 </center>
 
 
- <!-- footer -->
-
+<!-- footer -->
+<br>
+<br><br>
+<br><br>
+<br><br>
+<br>
 <footer>
   <center>
   <div class="containter-fluid padding">

@@ -1,3 +1,6 @@
+/*style for game*/
+
+
 .jumbotron {
 	color: white;
 	padding: 100px 25px;
@@ -10,18 +13,39 @@
 	color: white;
 	padding: 60px 50px;
 }
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+    padding: 0;
+    margin: auto;
+/*    display: block;*/
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 
 body {
-    background:  #8f9bcd ;
-    font-family: 'Lato', sans-serif;
-    color: white;
+
+  background:  #8f9bcd ;
+  font-family: 'Lato', sans-serif;
+  color: white;
 }
 
-.countdown {
-  font-family: font-family: 'Roboto', sans-serif;
-  font-size: 100px;
-  color: #ce4c36;
+span {
+    margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
 }
+
 
 .navbar-custom { 
 /*  background-color: #3f3f3f;*/
